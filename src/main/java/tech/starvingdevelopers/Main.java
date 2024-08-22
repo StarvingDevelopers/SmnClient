@@ -17,7 +17,7 @@ public class Main extends Application {
 
         Browser browser = engine.newBrowser();
 
-        browser.navigation().loadUrl("https://google.com");
+        browser.navigation().loadUrl("https://localhost/login");
 
         BrowserView view = BrowserView.newInstance(browser);
 
@@ -30,7 +30,7 @@ public class Main extends Application {
     }
 
     public static void main(String[] args) {
-        System.setProperty("jxbrowser.license.key", "");
+        System.setProperty("jxbrowser.license.key", "ADICIONE SUA LICENÇA DO JXBROWSER AQUI!");
         launch(args);
     }
 }
